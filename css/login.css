@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Mukta:wght@200&display=swap');
+
+html, body{
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 238, 238);
+}
+
+header{
+    margin: 10px;
+}
+
+.login{
+    width: 4%;
+    height: 4%;
+    float: right;
+    margin-top:-55px;
+}
+
+img{ /*Centra imagenes*/
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header hr{
+    border:0.5px solid #8A8070;
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    text-transform: uppercase;
+}
+
+.link{
+    color:black;
+}
+
+.link:hover{
+    color:#7ABA96;
+}
+
+main{
+    margin-top:5%;
+}
+
+main img {
+    margin-top:1%;
+    margin-left: 18%;
+    width: 25%;
+    height: 25%;
+    float:left;
+}
+
+main section{
+    background-color: rgb(209, 201, 201);
+    border-radius: 20px;
+    text-align: center;
+    padding: 3%;
+    margin-left: 65%;
+    margin-right:5%;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+#email,#psswd{
+    font-family: 'Arimo', sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background:none;
+    width: 60%;
+    height: 60%;
+    padding: 4px;
+    margin-top: 13px;
+    margin-bottom: 7%;
+}
+
+input:last-of-type{
+    padding:13px;
+    margin-top: 20px;
+    margin-right: 2%;
+    background-color: rgb(123, 193, 123);
+    border:0;
+}
+
+.signIn{
+    text-transform: none;
+    margin-left: 69%;
+    color:rgb(0, 132, 255)
+}
+
+footer {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgb(52, 49, 49);
+}
+
+footer p{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.first_a {
+    margin-left: 375px;
+}

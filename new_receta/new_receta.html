@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="../css/new_receta.css">
+    <link rel="icon" type="image/gif" href="../src/img/iconpage.png">
+	<title>Nueva Receta</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="../src/img/Logo-Delicias.png" alt="Logo Delicias">
+        </div>
+        <div>
+            <a href="../login/logIn.html"><img src="../src/img/loginIcon.png" alt="LogIn" class="login"></a>
+        </div>
+        <div>
+            <hr>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html" class="link">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="../sobreMi/sobreMi.html" class="link">Sobre mí</a>
+                    </li>
+                    <li>
+                        <a href="../recetas/recetas.html" class="link">Recetas</a>
+                    </li>
+                    <li>
+                        <a href="../contacto/contacto.html" class="link">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="" class="link">Otras cosas</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Formulario - Nueva Receta</h2>
+            <form method="get" action="../action_page.php">
+                <label for="author">Autor:</label><br>
+                <input type="text" id="author" name="author" required><br> 
+                <label for="fecha">Fecha:</label><br>
+                <input type="date" id="fecha" name="fecha" required><br>
+                <label for="title">Título</label><br>
+                <input type="text" id="title" name="title" required><br>
+                <label for="difficulty">Dificultad</label><br>
+                <select name="dificultad" id="difficulty">
+                        <option selected>Elige una opción</option>
+                        <option>Fácil</option>
+                        <option>Intermedio</option>
+                        <option>Difícil</option>
+                </select><br>    
+                <label for="time">Tiempo de Elaboración</label><br>
+                <input type="time" id="time" name="time" required><br>
+                <label for="number">Numero de Raciones</label><br>
+                <input type="number" id="number" name="numero_raciones" required><br>
+                <label for="ingredientes">Ingredientes:</label><br>
+                <input type="text" id="ingredientes" name="ingredientes" required><br> 
+                <label for="preparation">Preparación:</label><br>
+                <input type="text" id="preparation" name="preparacion" required><br>
+                <input type="submit" value="Publicar" id="submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="https://www.facebook.com/deliciaskitchen" class="first_a">Facebook</a></p>
+        <p><a href="https://twitter.com/deliciaskitchen">Twitter</a></p>
+        <p><a href="https://instagram.com/deliciaskitchen/">Instagram</a></p>
+        <p><a href="https://www.pinterest.es/deliciaskitchen/">Pinterest</a></p>
+        <p><a href="mailto:hola@deliciaskitchen.com" class="last_a">Email</a></p>
+    </footer>
+
+</body>

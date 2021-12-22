@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Mukta:wght@200&display=swap');
+
+html, body{
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 238, 238);
+}
+
+header{
+    margin: 10px;
+}
+
+.login{
+    margin-top:-50px;
+    width: 4%;
+    float: right;
+}
+
+img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header hr{
+    border:0.5px solid #8A8070;
+}
+
+nav{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    text-transform: uppercase;
+}
+
+.link{
+    color:black;
+}
+
+.link:hover{
+    color:#7ABA96;
+}
+
+h3{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.container p:last-of-type{
+    color: grey;
+}
+
+aside{
+    margin-top:-8px;
+    margin-right: 8%;
+    margin-left: 10%;
+}
+
+aside section:last-of-type{
+    background-color: #f6f4f0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+aside p{
+    margin-left: 15px;
+}
+
+#book{
+    width: 150px;
+    height: 220px;
+}
+
+#subscribe article:last-of-type{
+    background-color:#7ABA96;
+    text-align: center;
+    padding: 1%;
+}
+
+.recipes{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 8%;
+}
+
+.recipes img{
+    width: 385px;
+    height: 240px;
+}
+
+.titleReceta{
+    text-decoration: none;
+    text-transform: none;
+    color:black;
+    margin: auto;
+}
+
+.titleReceta:hover{
+    color:#8A8070
+}
+
+.recipes hr {
+    border: 0.5px solid #7ABA96;
+}
+
+.fecha{
+    text-align: center;
+    margin: 0;
+}
+
+.recipes article {
+    margin-left: 50px;
+}
+
+footer {
+    padding: 2%;
+    margin-top:5%;
+    background-color: rgb(52, 49, 49);
+}
+
+footer p{
+    margin: auto;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.first_a {
+    margin-left: 28%;
+}

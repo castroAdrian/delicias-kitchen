@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Mukta:wght@200&display=swap');
+
+html, body{
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 238, 238);
+}
+
+header{
+    margin: 10px;
+}
+
+.login{
+    width: 4%;
+    height: 4%;
+    float: right;
+    margin-top:-55px;
+}
+
+img{ /*Centra imagenes*/
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header hr{
+    border:0.5px solid #8A8070;
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    text-transform: uppercase;
+}
+
+.link{
+    color:black;
+}
+
+.link:hover{
+    color:#7ABA96;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form{
+    margin-top:3%;
+    margin-left: 10%;
+}
+
+#fname,#lname,#email,#subject,#message{
+    border:0.5px solid grey;
+    padding: 10px;
+    padding-right: 100px;
+    margin-top: 8px;
+    margin-bottom: 2%;
+}
+
+#message{
+    padding-bottom: 5%;
+    padding-right: 70%;
+}
+
+input:last-of-type{
+    padding:13px;
+    margin-top: 20px;
+    margin-right: 2%;
+    background-color: rgb(123, 193, 123);
+    border:0;
+}
+
+footer {
+    padding: 2%;
+    margin-top:5%;
+    background-color: rgb(52, 49, 49);
+}
+
+footer p{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.first_a {
+    margin-left: 375px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <link rel="icon" type="image/gif" href="../src/img/iconpage.png">
+	<link rel="stylesheet" href="../css/login.css">
+	<title>Iniciar Sesión</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="../src/img/Logo-Delicias.png" alt="Logo Delicias">
+        </div>
+        <div>
+            <a href="../login/logIn.html"><img src="../src/img/loginIcon.png" alt="LogIn" class="login"></a>
+        </div>
+        <div>
+            <hr>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html" class="link">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="../sobreMi/sobreMi.html" class="link">Sobre mí</a>
+                    </li>
+                    <li>
+                        <a href="../recetas/recetas.html" class="link">Recetas</a>
+                    </li>
+                    <li>
+                        <a href="../contacto/contacto.html" class="link">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="" class="link">Otras cosas</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <img src="../src/img/cocinero2.png">
+        </div>
+        <section>
+            <h2>¡Bienvenido/a!</h2>
+            <form action="../action_page.php" method="get">
+                <label for="email">Correo Electrónico</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="psswd">Contraseña</label><br>
+                <input type="text" id="psswd" name="psswd" required><br>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </section>
+        <a href ="../signin/signin.html" target="_blank" class="signIn">¿No tienes cuenta? ¡Regístrate hoy mismo!</a>
+    </main>
+
+    <footer>
+        <p><a href="https://www.facebook.com/deliciaskitchen" class="first_a">Facebook</a></p>
+        <p><a href="https://twitter.com/deliciaskitchen">Twitter</a></p>
+        <p><a href="https://instagram.com/deliciaskitchen/">Instagram</a></p>
+        <p><a href="https://www.pinterest.es/deliciaskitchen/">Pinterest</a></p>
+        <p><a href="mailto:hola@deliciaskitchen.com" class="last_a">Email</a></p>
+    </footer>
+
+</body>
