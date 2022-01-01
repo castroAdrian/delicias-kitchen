@@ -13,7 +13,6 @@ APELLIDOS: CASTRO ALONSO
 </head>
 
 <body>
-
     <header>
         <div>
             <img src="src/img/Logo-Delicias.png" alt="Logo Delicias">
@@ -21,7 +20,7 @@ APELLIDOS: CASTRO ALONSO
         <div>
             <a href="login/logIn.html"><img src="src/img/loginIcon.png" alt="LogIn" class="login"></a>
         </div>
-        <div>
+        <div id="menu">
             <hr>
             <nav>
                 <ul>
@@ -46,12 +45,14 @@ APELLIDOS: CASTRO ALONSO
         </div>
     </header>
 
-    <div class="container">
+    <div id="container">
         <main>
-            <section>
-                <div class="recipes">
-                    <article>
+            <div class="recipes">
+                <article>
+                    <div class="imagen">
                         <img src="src/img/Pasta.jpg" alt="pasta">
+                    </div>
+                    <div>
                         <h3>
                             <a href="https://deliciaskitchen.com/pasta-con-salsa-de-coliflor-y-pimienta-de-jamaica/"  class="titleReceta">Pasta con salsa de coliflor y pimienta de Jamaica</a>
                         </h3>
@@ -59,10 +60,14 @@ APELLIDOS: CASTRO ALONSO
                         <p class="fecha">13 marzo, 2019</p>
                         <hr>
                         <p>Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está elaborada con coliflor y con
-                        otros ingredientes vegetales, que la convierten en…</p>
-                    </article>
-                    <article>
+                            otros ingredientes vegetales, que la convierten en…</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="imagen">
                         <img src="src/img/galletas.jpg" alt="galletas">
+                    </div>
+                    <div>
                         <h3>
                             <a href="https://deliciaskitchen.com/galletas-de-avena-rosa-y-lima/"  class="titleReceta">Galletas de avena, rosa y lima</a>
                         </h3>
@@ -71,11 +76,15 @@ APELLIDOS: CASTRO ALONSO
                         <hr>
                         <p>Galletitas para San Valentín? Estas galletas ricas y crujientes, elaboradas con avena y con un rico sabor a rosa y
                             lima son perfectas para celebrarlo!</p>
-                    </article>
-                </div>
-                <div class="recipes">
-                    <article>
+                    </div>
+                </article>
+            </div>
+            <div class="recipes">
+                <article>
+                    <div class="imagen">
                         <img src="src/img/mijo.jpg" alt="mijo">
+                    </div>
+                    <div>
                         <h3>
                             <a href="https://deliciaskitchen.com/mijo-con-lentejas/" class="titleReceta">Mijo cremoso con lentejas, hortalizas y shiitake</a>
                         </h3>
@@ -84,9 +93,13 @@ APELLIDOS: CASTRO ALONSO
                         <hr>
                         <p>Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que necesitas para templar el cuerpo este
                             invierno! Delicioso y fácil!</p>
-                    </article>
-                    <article id="calabacines">
+                    </div>
+                </article>
+                <article>
+                    <div class="imagen">
                         <img src="src/img/calabacines.jpg" alt="calabacines">
+                    </div>
+                    <div>
                         <h3>
                             <a href="https://deliciaskitchen.com/calabacines-rellenos/" class="titleReceta">Calabacines rellenos de arroz negro y calabaza</a>
                         </h3>
@@ -95,19 +108,19 @@ APELLIDOS: CASTRO ALONSO
                         <hr>
                         <p>Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy, son la última receta que publico en el
                             blog en…</p>
-                    </article>
-                </div>
-            </section>
+                    </div>
+                </article>
+            </div>
         </main>
         <aside>
-            <section id="aboutMe">
+            <div id="aboutMe">
                 <article>
                     <h3>Sobre mí</h3>
                     <img src="src/img/isagil.png" alt="Foto Personal">
                     <p>Hola, bienvenid@ a mi blog, un espacio donde quiero compartir mis recetas vegetarianas y veganas favoritas...</p>
                 </article>
-            </section>
-            <section id="subscribe">
+            </div>
+            <div id="subscribe">
                 <article>
                     <h3>Suscríbete a mi blog</h3>
                     <img src="src/img/libro.png" alt="Libro" id="book">
@@ -116,16 +129,15 @@ APELLIDOS: CASTRO ALONSO
                 <article>
                     <b>Apúntame</b>
                 </article>
-            </section>
+            </div>
         </aside>
     </div>
 
     <footer>
-        <p><a href="https://www.facebook.com/deliciaskitchen" class="first_a">Facebook</a></p>
+        <p><a href="https://www.facebook.com/deliciaskitchen">Facebook</a></p>
         <p><a href="https://twitter.com/deliciaskitchen">Twitter</a></p>
         <p><a href="https://instagram.com/deliciaskitchen/">Instagram</a></p>
         <p><a href="https://www.pinterest.es/deliciaskitchen/">Pinterest</a></p>
-        <p><a href="mailto:hola@deliciaskitchen.com" class="last_a">Email</a></p>
+        <p><a href="mailto:hola@deliciaskitchen.com">Email</a></p>
     </footer>
-
 </body>

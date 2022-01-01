@@ -44,32 +44,19 @@ li{
     color:#7ABA96;
 }
 
-h3{
+h3,.fecha{
     text-align: center;
 }
 
-.container{
-    display: flex;
-}
-
-.container p:last-of-type{
-    color: grey;
-}
-
 aside{
-    margin-top:-8px;
-    margin-right: 8%;
-    margin-left: 10%;
+    width: 30%;
+    height: 30%;
 }
 
-aside section:last-of-type{
+aside div:last-of-type{
     background-color: #f6f4f0;
-    padding-top: 2px;
     padding-bottom: 2px;
-}
-
-aside p{
-    margin-left: 15px;
+    padding-top: 2px;
 }
 
 #book{
@@ -79,23 +66,40 @@ aside p{
 
 #subscribe article:last-of-type{
     background-color:#7ABA96;
-    text-align: center;
     padding: 1%;
+    text-align: center;
+}
+
+#container{
+    margin:3%;
+    display:flex;
+}
+
+main{
+    width: 90%;
+    height: 90%;
 }
 
 .recipes{
-    display: flex;
-    margin-top: 15px;
-    margin-left: 8%;
+    column-count: 2;
 }
 
-.recipes img{
-    width: 385px;
-    height: 240px;
+.imagen{
+    width: 85%;
+    height: 85%;
+}
+
+.recipes article div:last-of-type{
+    width:85%;
+    height:85%;
+}
+
+.recipes img {
+    width: 100%;
+    height: 100%;
 }
 
 .titleReceta{
-    text-decoration: none;
     text-transform: none;
     color:black;
     margin: auto;
@@ -110,32 +114,22 @@ aside p{
 }
 
 .fecha{
-    text-align: center;
     margin: 0;
 }
 
-.recipes article {
-    margin-left: 50px;
-}
-
 footer {
-    padding: 2%;
-    margin-top:5%;
     background-color: rgb(52, 49, 49);
+    text-align: center;
+    padding: 2%;
 }
 
 footer p{
-    margin: auto;
     display: inline;
 }
 
 a{
-    text-decoration: none;
     color: white;
-    text-transform: uppercase;
     margin: 20px;
-}
-
-.first_a {
-    margin-left: 28%;
+    text-decoration: none;
+    text-transform: uppercase;
 }
