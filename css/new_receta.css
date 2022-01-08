@@ -12,13 +12,12 @@ header{
 }
 
 .login{
+    margin-top:-50px;
     width: 4%;
-    height: 4%;
     float: right;
-    margin-top:-55px;
 }
 
-img{ /*Centra imagenes*/
+img{
     display: block;
     margin-left:auto;
     margin-right:auto;
@@ -29,7 +28,6 @@ header hr{
 }
 
 nav{
-    margin: auto;
     text-align: center;
 }
 
@@ -94,9 +92,9 @@ main section{
 }
 
 footer {
-    padding: 2%;
-    margin-top:2%;
     background-color: rgb(52, 49, 49);
+    text-align: center;
+    padding: 2%;
 }
 
 footer p{
@@ -104,12 +102,8 @@ footer p{
 }
 
 a{
-    text-decoration: none;
     color: white;
-    text-transform: uppercase;
     margin: 20px;
-}
-
-.first_a {
-    margin-left: 375px;
+    text-decoration: none;
+    text-transform: uppercase;
 }

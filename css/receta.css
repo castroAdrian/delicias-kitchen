@@ -101,9 +101,10 @@ input:last-of-type{
 }
 
 footer {
-    padding: 2%;
-    margin-top:5%;
     background-color: rgb(52, 49, 49);
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
 }
 
 footer p{
@@ -111,12 +112,8 @@ footer p{
 }
 
 a{
-    text-decoration: none;
     color: white;
-    text-transform: uppercase;
     margin: 20px;
-}
-
-.first_a {
-    margin-left: 375px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
