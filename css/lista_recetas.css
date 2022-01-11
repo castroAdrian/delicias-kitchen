@@ -96,6 +96,26 @@ article div p, article div ul{
     margin-right: 5%;
 }
 
+.paginacion{
+    margin: 2%;
+}
+
+.paginacion ul {
+    list-style: none;
+    text-align: center;
+}
+
+.paginacion ul li{
+    display: inline-block;
+}
+
+.paginacion ul li a{
+    display: block;
+    padding: 10px 20px;
+    background-color: #7ABA96;
+    text-decoration: none;
+}
+
 footer {
     background-color: rgb(52, 49, 49);
     text-align: center;
