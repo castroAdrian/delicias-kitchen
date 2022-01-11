@@ -43,27 +43,27 @@ header li{
     color:#7ABA96;
 }
 
-main article{
+#recetas article{
     display:flex;
     margin:4%;
 }
 
-.imagen{
+#recetas .imagen{
     width:75%;
 }
 
-main img{
+#recetas article img{
     width: 100%;
 }
 
-main article div:last-of-type{
+#recetas article div:last-of-type{
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     background-color:rgb(241, 236, 236);
     margin-left: 5%;
     width: 80%;
 }
 
-article div:last-of-type:hover{
+#recetas article div:last-of-type:hover{
     box-shadow: 0 12px 16px rgb(115, 114, 114);
 }
 
@@ -76,13 +76,13 @@ article div:last-of-type:hover{
     color:#8A8070
 }
 
-main article hr {
+#recetas hr {
     border: 0.5px solid #7ABA96;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.fecha{
+#recetas .fecha{
     margin: 0;
     text-align: center;
 }
@@ -96,20 +96,20 @@ article div p, article div ul{
     margin-right: 5%;
 }
 
-.paginacion{
+#paginacion{
     margin: 2%;
 }
 
-.paginacion ul {
+#paginacion ul {
     list-style: none;
     text-align: center;
 }
 
-.paginacion ul li{
+#paginacion ul li{
     display: inline-block;
 }
 
-.paginacion ul li a{
+#paginacion ul li a{
     display: block;
     padding: 10px 20px;
     background-color: #7ABA96;

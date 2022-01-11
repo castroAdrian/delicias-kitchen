@@ -45,17 +45,12 @@ li{
     color:#7ABA96;
 }
 
-main img {
+main div img {
     margin-top:17%;
     margin-left: 10%;
     width: 40%;
     height: 40%;
     float:left;
-}
-
-#men,#girl,#other{
-    margin-top: 13px;
-    margin-bottom: 7%;
 }
 
 main section{
@@ -79,6 +74,11 @@ main section{
     padding: 6px;
     margin-top: 10px;
     margin-bottom: 5%;
+}
+
+#men,#girl,#other{
+    margin-top: 13px;
+    margin-bottom: 7%;
 }
 
 input:last-of-type{

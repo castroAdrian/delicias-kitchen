@@ -47,12 +47,8 @@ header li{
 
 #carbonara{
     width: 40%;
-    height: 40%;
-    display: block;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 main section{
@@ -70,7 +66,7 @@ main section{
     margin-bottom: 16px;
 }
 
-main div img{
+#preparation div img{
     margin-top: 2%;
     width: 28%;
     height: 28%;

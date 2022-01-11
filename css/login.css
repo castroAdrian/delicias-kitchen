@@ -48,7 +48,7 @@ main{
     margin-bottom: 3%;
 }
 
-main img {
+main div img {
     margin-top:1%;
     margin-left: 18%;
     width: 25%;
@@ -79,7 +79,7 @@ main section{
     margin-bottom: 7%;
 }
 
-input:last-of-type{
+main section form input:last-of-type{
     padding:13px;
     margin-top: 20px;
     margin-right: 2%;
@@ -87,7 +87,7 @@ input:last-of-type{
     border:0;
 }
 
-.signIn{
+#signIn{
     text-transform: none;
     margin-left: 69%;
     color:rgb(0, 132, 255)
