@@ -7,13 +7,11 @@ html, body{
 }
 
 header{
-    margin: 10px;
-}
-
-#login{
-    margin-top:-50px;
-    width: 4%;
-    float: right;
+    position: sticky;
+    top: 0;
+    margin: 0% 0% 10px 0%;
+    width:100%;
+    background-color: #F7F2F2;
 }
 
 img{
@@ -26,11 +24,21 @@ header hr{
     border:0.5px solid #8A8070;
 }
 
-nav,article h3{
+nav{
     text-align: center;
 }
 
-header li{
+#logDelicias{
+    position: absolute;
+    width:120px;
+    margin-left: 1%;
+}
+
+#logDelicias img{
+    width: 100%;
+}
+
+nav ul li{
     display: inline;
     text-transform: uppercase;
 }
@@ -58,13 +66,17 @@ header li{
 
 #recetas article div:last-of-type{
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    background-color:rgb(241, 236, 236);
+    background-color:rgb(228, 219, 181);
     margin-left: 5%;
     width: 80%;
 }
 
 #recetas article div:last-of-type:hover{
     box-shadow: 0 12px 16px rgb(115, 114, 114);
+}
+
+article h3{
+    text-align: center;
 }
 
 .titleReceta{

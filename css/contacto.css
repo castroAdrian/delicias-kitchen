@@ -7,13 +7,11 @@ html, body{
 }
 
 header{
-    margin: 10px;
-}
-
-#login{
-    margin-top:-50px;
-    width: 4%;
-    float: right;
+    position: sticky;
+    top: 0;
+    margin: 0% 0% 10px 0%;
+    width:100%;
+    background-color: #F7F2F2;
 }
 
 img{
@@ -30,9 +28,31 @@ nav{
     text-align: center;
 }
 
+#logDelicias{
+    position: absolute;
+    width:120px;
+    margin-left: 1%;
+}
+
+#logDelicias img{
+    width: 100%;
+}
+
 nav ul li{
     display: inline;
     text-transform: uppercase;
+}
+
+.link{
+    color:black;
+}
+
+.link:hover{
+    color:#7ABA96;
+}
+
+h3,.fecha{
+    text-align: center;
 }
 
 .link{
