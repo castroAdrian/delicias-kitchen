@@ -7,9 +7,9 @@ html, body{
 }
 
 header{
+    background-color: #F7F2F2;
     position: sticky;
     top: 0;
-    background-color: #F7F2F2;
 }
 
 img{
@@ -33,12 +33,13 @@ nav ul li{
 
 #logDelicias{
     position: absolute;
-    width:120px;
     margin-left: 1%;
+    width:120px;
 }
 
 #logDelicias img{
     width: 100%;
+    height: 100%;
 }
 
 .link{
@@ -50,8 +51,8 @@ nav ul li{
 }
 
 main section{
-    background-color: rgb(209, 201, 201);
-    border-radius: 20px;
+    background-color:rgb(228, 219, 181);
+    border-radius: 15px;
     text-align: center;
     padding: 2% 5% 2% 5%;
     margin: 2% 30% 2% 30%;
@@ -72,10 +73,12 @@ main section{
 #time,#number{
     padding: 6px;
     width: 15%;
+    height: 15%;
 }
 
 #ingredientes, #preparation{
     width: 100%;
+    height: 100%;
 }
 
 #submit{

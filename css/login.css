@@ -7,9 +7,9 @@ html, body{
 }
 
 header{
+    background-color: #F7F2F2;
     position: sticky;
     top: 0;
-    background-color: #F7F2F2;
 }
 
 img{
@@ -60,7 +60,7 @@ main div {
     width: 25%;
     height: 25%;
     margin-top: 2%;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 main div img{
@@ -79,11 +79,11 @@ main section{
 }
 
 #email,#psswd{
+    background:none;
     border-bottom:1.5px solid grey;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    background:none;
     margin-top: 13px;
     margin-bottom: 13px;
     padding: 4px;
@@ -107,8 +107,8 @@ main section form input:last-of-type{
 
 footer {
     background-color: rgb(52, 49, 49);
-    text-align: center;
     padding: 2%;
+    text-align: center;
 }
 
 footer p{

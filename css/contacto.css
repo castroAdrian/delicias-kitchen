@@ -7,9 +7,9 @@ html, body{
 }
 
 header{
+    background-color: #F7F2F2;
     position: sticky;
     top: 0;
-    background-color: #F7F2F2;
 }
 
 img{
@@ -33,20 +33,12 @@ nav ul li{
 
 #logDelicias{
     position: absolute;
-    width:120px;
     margin-left: 1%;
+    width:120px;
 }
 
 #logDelicias img{
     width: 100%;
-}
-
-.link{
-    color:black;
-}
-
-.link:hover{
-    color:#7ABA96;
 }
 
 .link{
@@ -84,11 +76,11 @@ form{
 }
 
 input:last-of-type{
+    background-color: rgb(123, 193, 123);
+    border:0;
     padding:13px;
     margin-top: 20px;
     margin-right: 2%;
-    background-color: rgb(123, 193, 123);
-    border:0;
 }
 
 footer {
