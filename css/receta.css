@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Mukta:wght@200&display=swap');
+
 html, body{
     font-family: 'Arimo', sans-serif;
     margin: 0;
@@ -7,8 +9,6 @@ html, body{
 header{
     position: sticky;
     top: 0;
-    margin: 0% 0% 10px 0%;
-    width:100%;
     background-color: #F7F2F2;
 }
 
@@ -26,6 +26,11 @@ nav{
     text-align: center;
 }
 
+nav ul li{
+    display: inline;
+    text-transform: uppercase;
+}
+
 #logDelicias{
     position: absolute;
     width:120px;
@@ -34,11 +39,6 @@ nav{
 
 #logDelicias img{
     width: 100%;
-}
-
-nav ul li{
-    display: inline;
-    text-transform: uppercase;
 }
 
 .link{
@@ -56,7 +56,7 @@ nav ul li{
 }
 
 main section{
-    margin-top: 35px;
+    margin-top: 2%;
     margin-left: 8%;
     margin-right: 15%;
 }
@@ -78,17 +78,18 @@ main section{
 }
 
 #fname,#email,#subject,#message{
-    border:0.5px solid grey;
-    border-radius: 8px;
     padding: 10px;
     padding-right: 100px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:1.5px solid grey;
     margin-top: 8px;
     margin-bottom: 2%;
 }
 
 #message{
-    padding-bottom: 5%;
-    padding-right: 70%;
+    width: 60%;
 }
 
 input:last-of-type{

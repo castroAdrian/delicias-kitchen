@@ -9,8 +9,6 @@ html, body{
 header{
     position: sticky;
     top: 0;
-    margin: 0% 0% 10px 0%;
-    width:100%;
     background-color: #F7F2F2;
 }
 
@@ -28,6 +26,11 @@ nav{
     text-align: center;
 }
 
+nav ul li{
+    display: inline;
+    text-transform: uppercase;
+}
+
 #logDelicias{
     position: absolute;
     width:120px;
@@ -36,11 +39,6 @@ nav{
 
 #logDelicias img{
     width: 100%;
-}
-
-li{
-    display: inline;
-    text-transform: uppercase;
 }
 
 .link{
@@ -52,28 +50,6 @@ li{
 }
 
 h3,.fecha{
-    text-align: center;
-}
-
-aside{
-    width: 30%;
-    height: 30%;
-}
-
-aside div:last-of-type{
-    background-color: #f6f4f0;
-    padding-bottom: 2px;
-    padding-top: 2px;
-}
-
-#book{
-    width: 150px;
-    height: 220px;
-}
-
-#subscribe article:last-of-type{
-    background-color:#7ABA96;
-    padding: 1%;
     text-align: center;
 }
 
@@ -122,6 +98,28 @@ main{
 
 .fecha{
     margin: 0;
+}
+
+aside{
+    width: 30%;
+    height: 30%;
+}
+
+aside div:last-of-type{
+    background-color: #f6f4f0;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+#book{
+    width: 150px;
+    height: 220px;
+}
+
+#subscribe article:last-of-type{
+    background-color:#7ABA96;
+    padding: 1%;
+    text-align: center;
 }
 
 footer {

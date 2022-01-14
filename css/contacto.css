@@ -9,8 +9,6 @@ html, body{
 header{
     position: sticky;
     top: 0;
-    margin: 0% 0% 10px 0%;
-    width:100%;
     background-color: #F7F2F2;
 }
 
@@ -28,6 +26,11 @@ nav{
     text-align: center;
 }
 
+nav ul li{
+    display: inline;
+    text-transform: uppercase;
+}
+
 #logDelicias{
     position: absolute;
     width:120px;
@@ -38,21 +41,12 @@ nav{
     width: 100%;
 }
 
-nav ul li{
-    display: inline;
-    text-transform: uppercase;
-}
-
 .link{
     color:black;
 }
 
 .link:hover{
     color:#7ABA96;
-}
-
-h3,.fecha{
-    text-align: center;
 }
 
 .link{
@@ -69,21 +63,24 @@ h1{
 }
 
 form{
-    margin-top:3%;
+    margin-top:4%;
+    margin-bottom: 4%;
     margin-left: 10%;
 }
 
 #fname,#lname,#email,#subject,#message{
-    border:0.5px solid grey;
-    padding: 10px;
-    padding-right: 100px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:1.5px solid grey;
     margin-top: 8px;
     margin-bottom: 2%;
+    padding: 10px;
+    width:12%;
 }
 
 #message{
-    padding-bottom: 5%;
-    padding-right: 70%;
+    width: 60%;
 }
 
 input:last-of-type{
@@ -95,7 +92,6 @@ input:last-of-type{
 }
 
 footer {
-    margin-top: 2%;
     background-color: rgb(52, 49, 49);
     text-align: center;
     padding: 2%;
