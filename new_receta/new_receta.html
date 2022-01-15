@@ -40,26 +40,26 @@
             <h2>Formulario - Nueva Receta</h2>
             <form method="get" action="../action_page.php">
                 <label for="author">Autor:</label><br>
-                <input type="text" id="author" name="author" required><br> 
+                <input type="text" id="author" name="author" class="campos" required><br> 
                 <label for="fecha">Fecha:</label><br>
-                <input type="date" id="fecha" name="fecha" required><br>
+                <input type="date" id="fecha" name="fecha" class="campos" required><br>
                 <label for="title">Título</label><br>
-                <input type="text" id="title" name="title" required><br>
+                <input type="text" id="title" name="title" class="campos" required><br>
                 <label for="difficulty">Dificultad</label><br>
-                <select name="dificultad" id="difficulty">
+                <select name="dificultad" id="difficulty" class="campos">
                     <option selected>Elige una opción</option>
                     <option>Fácil</option>
                     <option>Intermedio</option>
                     <option>Difícil</option>
                 </select><br>    
                 <label for="time">Tiempo de Elaboración</label><br>
-                <input type="time" id="time" name="time" required><br>
+                <input type="time" id="time" name="time" class="campos" required><br>
                 <label for="number">Numero de Raciones</label><br>
-                <input type="number" id="number" name="numero_raciones" required><br>
+                <input type="number" id="number" name="numero_raciones" class="campos" required><br>
                 <label for="ingredientes">Ingredientes:</label><br>
-                <input type="text" id="ingredientes" name="ingredientes" required><br> 
+                <input type="text" id="ingredientes" name="ingredientes" class="campos" required><br> 
                 <label for="preparation">Preparación:</label><br>
-                <input type="text" id="preparation" name="preparacion" required><br>
+                <input type="text" id="preparation" name="preparacion" class="campos" required><br>
                 <input type="submit" value="Publicar" id="submit">
             </form>
         </section>

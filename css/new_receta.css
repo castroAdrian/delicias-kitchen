@@ -54,7 +54,7 @@ main section{
     margin: 2% 30% 2% 30%;
 }
 
-#author,#fecha,#title,#difficulty,#time,#number,#ingredientes,#preparation{
+.campos{
     background:none;
     border-top: 0;
     border-left: 0;

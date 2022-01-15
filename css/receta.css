@@ -59,23 +59,23 @@ main section{
     margin-right: 15%;
 }
 
-#info li{
+.info li{
     display: inline;
     margin-left: 15%;
 }
 
-#preparation ol li, ul li{
+.preparation ol li, ul li{
     margin-bottom: 16px;
 }
 
-#preparation img{
+.preparation img{
     margin-top: 2%;
     width: 28%;
     height: 28%;
     margin-bottom: 2%;
 }
 
-#fname,#email,#subject,#message{
+.campos{
     padding: 10px;
     padding-right: 100px;
     border-top: 0;

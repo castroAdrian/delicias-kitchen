@@ -57,7 +57,7 @@ form{
     margin-left: 10%;
 }
 
-#fname,#lname,#email,#subject,#message{
+.campos{
     border-top: 0;
     border-left: 0;
     border-right: 0;

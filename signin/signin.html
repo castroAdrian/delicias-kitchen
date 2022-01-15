@@ -42,11 +42,11 @@
             <h2>¡Bienvenido/a!</h2>
             <form action="../action_page.php" method="get">
                 <label for="fname">Nombre:</label><br>
-                <input type="text" id="fname" name="fname" required><br>
+                <input type="text" id="fname" name="fname" class="campos" required><br>
                 <label for="lname">Apellidos:</label><br>
-                <input type="text" id="lname" name="sname" required><br>
+                <input type="text" id="lname" name="sname" class="campos" required><br>
                 <label for="birthday">Fecha de Nacimiento</label><br>
-                <input type="date" id="birthday" name="fecha" required><br>
+                <input type="date" id="birthday" name="fecha" class="campos" required><br>
                 <label for="men">Género:</label><br>
                 <label for="men">Hombre</label>
                 <input type="radio" id="men" name="genero">
@@ -55,7 +55,7 @@
                 <label for="other">Sin especificar</label>
                 <input type="radio" id="other" name="genero"><br>
                 <label for="country">País:</label><br>
-                <select name="pais" id="country">
+                <select name="pais" id="country" class="campos">
                     <option value="EO" selected>Elige una opción</option>
                     <option value="AF">Afganistán</option>
                     <option value="AL">Albania</option>
@@ -216,11 +216,11 @@
                     <option value="ZW">Zimbabue</option>
                 </select><br>                 
                 <label for="email">Correo Electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br>
+                <input type="email" id="email" name="email" class="campos" required><br>
                 <label for="psswd">Contraseña:</label><br>
-                <input type="text" id="psswd" name="psswd" required><br>
+                <input type="text" id="psswd" name="psswd" class="campos" required><br>
                 <label for="psswd">Confirmar contraseña:</label><br>
-                <input type="text" id="psswdC" name="psswd" required><br>
+                <input type="text" id="psswdC" name="psswd" class="campos" required><br>
                 <input type="checkbox" name="casilla">He leido y acepto la política de privacidad. <br>
                 <input type="submit" value="Enviar">
             </form> 

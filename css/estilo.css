@@ -50,7 +50,7 @@ h3,.fecha{
     text-align: center;
 }
 
-#container{
+.container{
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 3%;
@@ -60,15 +60,6 @@ h3,.fecha{
 main{
     width: 90%;
     height: 90%;
-}
-
-#nueva_rec{
-    width:50px;
-    float: right;
-}
-
-#nueva_rec img{
-    width: 100%;
 }
 
 .recipes{
@@ -113,28 +104,28 @@ aside{
     height: 30%;
 }
 
-#aboutMe article p{
+.aboutMe article p{
     margin-left:15px;
 }
 
-#subscribe article{
+.subscribe article{
     background-color: #f6f4f0;
     padding-bottom: 2%;
     padding-top: 2%;
 }
 
-#book{
+.book{
     width: 150px;
     height: 220px;
 }
 
-#subscribe div{
+.subscribe div{
     background-color:#7ABA96;
     padding: 1%;
     text-align: center;
 }
 
-#subscribe div a{
+.subscribe div a{
     text-transform: none;
     font-size: 18px;
 }
