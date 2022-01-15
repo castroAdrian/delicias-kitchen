@@ -24,7 +24,6 @@ header hr{
 
 nav{
     text-align: center;
-    padding: 4px;
 }
 
 nav ul li{
@@ -32,24 +31,11 @@ nav ul li{
     text-transform: uppercase;
 }
 
-#logDelicias{
-    position: absolute;
-    width:190px;
-    margin-left: 1%;
-}
-
-#logDelicias img{
-    width: 100%;
-    height: 100%;
-}
-
 #login{
+    margin-top:-45px;
+    width: 60px;
     float: right;
-    margin: 10px;
-}
-
-#login img{
-    width: 40px;
+    margin-right: 2%;
 }
 
 .link{
