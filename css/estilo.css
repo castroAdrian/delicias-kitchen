@@ -24,6 +24,7 @@ header hr{
 
 nav{
     text-align: center;
+    padding: 4px;
 }
 
 nav ul li{
@@ -33,13 +34,22 @@ nav ul li{
 
 #logDelicias{
     position: absolute;
-    width:120px;
+    width:190px;
     margin-left: 1%;
 }
 
 #logDelicias img{
     width: 100%;
     height: 100%;
+}
+
+#login{
+    float: right;
+    margin: 10px;
+}
+
+#login img{
+    width: 40px;
 }
 
 .link{
@@ -55,13 +65,24 @@ h3,.fecha{
 }
 
 #container{
-    margin:3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
     display:flex;
 }
 
 main{
     width: 90%;
     height: 90%;
+}
+
+#nueva_rec{
+    width:50px;
+    float: right;
+}
+
+#nueva_rec img{
+    width: 100%;
 }
 
 .recipes{
@@ -106,10 +127,14 @@ aside{
     height: 30%;
 }
 
-aside div:last-of-type{
+#aboutMe article p{
+    margin-left:15px;
+}
+
+#subscribe article{
     background-color: #f6f4f0;
-    padding-bottom: 2px;
-    padding-top: 2px;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 #book{
@@ -117,10 +142,15 @@ aside div:last-of-type{
     height: 220px;
 }
 
-#subscribe article:last-of-type{
+#subscribe div{
     background-color:#7ABA96;
     padding: 1%;
     text-align: center;
+}
+
+#subscribe div a{
+    text-transform: none;
+    font-size: 18px;
 }
 
 footer {
